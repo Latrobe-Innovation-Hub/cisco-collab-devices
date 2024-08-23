@@ -82,13 +82,7 @@ You can adjust the following configuration parameters in the `201-panel.js` and 
 
 The UI panel provides easy navigation with clearly labeled buttons for each function. Below is a sample of the button layout:
 
-```
-| VideoWall Projectors       | On     | Off   |
-| Webex Input Source         | HDMI   | RESET |
-| VideoWall Presets          | Webex Single | Webex Dual | Webex Hybrid | Digital Signage |
-| Screen Roles               | [X] [O] | [O] [X] | [X] [X] |
-| PoE Port Control           | Cycle PoE |
-```
+![201 UI](201-ui.png)
 
 The panel includes additional pages for more advanced controls such as codec inputs, floor projectors, and API commands.
 
