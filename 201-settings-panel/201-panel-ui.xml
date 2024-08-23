@@ -1,0 +1,386 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>4</Order>
+    <PanelId>panel</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreen</Location>
+    <Icon>Sliders</Icon>
+    <Color>#D43B52</Color>
+    <Name>System Controls</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Basic</Name>
+      <Row>
+        <Name>VideoWall Projectors</Name>
+        <Widget>
+          <WidgetId>on_3_btn</WidgetId>
+          <Name>On</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>off_3_btn</WidgetId>
+          <Name>Off</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Webex Input Source</Name>
+        <Widget>
+          <WidgetId>HDMI_choice_btn</WidgetId>
+          <Name>HDMI</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>webex_reset_btn</WidgetId>
+          <Name>RESET</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>VideoWall Presets</Name>
+        <Widget>
+          <WidgetId>webexSingle_btn</WidgetId>
+          <Name>Webex Single</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>default_btn</WidgetId>
+          <Name>Webex Dual</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>default_btn_hybrid</WidgetId>
+          <Name>Webex Hybrid</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widescreenPC_btn</WidgetId>
+          <Name>Digital Signage</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Screen Roles</Name>
+        <Widget>
+          <WidgetId>flip-1</WidgetId>
+          <Name>[X] [O]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>flip-2</WidgetId>
+          <Name>[O] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>set_screens_same</WidgetId>
+          <Name>[X] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>VideoWall</Name>
+      <Row>
+        <Name>VideoWall Presets</Name>
+        <Widget>
+          <WidgetId>webexSingle_btn</WidgetId>
+          <Name>Codec Single</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>webex_btn</WidgetId>
+          <Name>Codec Dual</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>single_offcentre_btn</WidgetId>
+          <Name>Codec Single OC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widescreenPCandcodec_btn</WidgetId>
+          <Name>Codec + PC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>hologramDemo_btn</WidgetId>
+          <Name>HoloDemo + PC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>hologramDemo_btn_2</WidgetId>
+          <Name>HoloDemo + PC 2</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>default_btn_hybrid</WidgetId>
+          <Name>Codec Hybrid</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>holo-demo3_btn</WidgetId>
+          <Name>HoloDemo3</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name/>
+        <Widget>
+          <WidgetId>widescreenPC_btn</WidgetId>
+          <Name>Widescreen PC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>Codec</Name>
+      <Row>
+        <Name>Codec Inputs</Name>
+        <Widget>
+          <WidgetId>input_2_btn</WidgetId>
+          <Name>Codec Selector</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>stoppresentation_btn</WidgetId>
+          <Name>Default</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>PC_choice_btn</WidgetId>
+          <Name>PC</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>HDMI_choice_btn</WidgetId>
+          <Name>HDMI</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>cam1_choice_btn</WidgetId>
+          <Name>Camera 1</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>cam2_choice_btn</WidgetId>
+          <Name>Camera 2</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Screen Roles</Name>
+        <Widget>
+          <WidgetId>flip-1</WidgetId>
+          <Name>[X] [O]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>flip-2</WidgetId>
+          <Name>[O] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>set_screens_same</WidgetId>
+          <Name>[X] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Mode</Name>
+        <Widget>
+          <WidgetId>light-mode-btn</WidgetId>
+          <Name>Light</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>dark-mode-btn</WidgetId>
+          <Name>Dark</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>Floor Proectors</Name>
+      <Row>
+        <Name>Floor Projector 1</Name>
+        <Widget>
+          <WidgetId>on_4_btn</WidgetId>
+          <Name>On</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>off_4_btn</WidgetId>
+          <Name>Off</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Floor Projector 2</Name>
+        <Widget>
+          <WidgetId>on_5_btn</WidgetId>
+          <Name>On</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>off_5_btn</WidgetId>
+          <Name>Off</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>Cameras</Name>
+      <Row>
+        <Name>Camera Preset</Name>
+        <Widget>
+          <WidgetId>camera_def_btn</WidgetId>
+          <Name>Default View</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+    <Page>
+      <Name>API</Name>
+      <Row>
+        <Name>VideoWall API</Name>
+        <Widget>
+          <WidgetId>poe-cycle</WidgetId>
+          <Name>Power Cycle</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Presentation PC</Name>
+        <Widget>
+          <WidgetId>presentationPC</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>wake-presentationPC</Key>
+              <Name>Wake</Name>
+            </Value>
+            <Value>
+              <Key>reboot-presentationPC</Key>
+              <Name>Reboot</Name>
+            </Value>
+            <Value>
+              <Key>shutdown-presentationPC</Key>
+              <Name>Shutdown</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>TouchTable PC</Name>
+        <Widget>
+          <WidgetId>touchtablePC</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>wake-touchtablePC</Key>
+              <Name>Wake</Name>
+            </Value>
+            <Value>
+              <Key>reboot-touchtablePC</Key>
+              <Name>Reboot</Name>
+            </Value>
+            <Value>
+              <Key>shutdown-touchtablePC</Key>
+              <Name>Shutdown</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Projector1 PC</Name>
+        <Widget>
+          <WidgetId>projector1PC</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>wake-projector1PC</Key>
+              <Name>Wake</Name>
+            </Value>
+            <Value>
+              <Key>reboot-projector1PC</Key>
+              <Name>Reboot</Name>
+            </Value>
+            <Value>
+              <Key>shutdown-projector1PC</Key>
+              <Name>Shutdown</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Projector2 PC</Name>
+        <Widget>
+          <WidgetId>projector2PC</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4</Options>
+          <ValueSpace>
+            <Value>
+              <Key>wake-projector2PC</Key>
+              <Name>Wake</Name>
+            </Value>
+            <Value>
+              <Key>reboot-projector2PC</Key>
+              <Name>Reboot</Name>
+            </Value>
+            <Value>
+              <Key>shutdown-projector2PC</Key>
+              <Name>Shutdown</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
