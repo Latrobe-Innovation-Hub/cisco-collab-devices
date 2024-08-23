@@ -1,60 +1,58 @@
-# Cisco Webex Room Device - Telehealth Portal WebView Macro
+# Telehealth Web Portal Demo Macro
 
-This repository contains a custom macro for Cisco Webex room devices that allows users to open a web page (such as a telehealth portal) directly from the Touch 10 or Navigator interface. The macro includes options for both opening and closing the web page with easy-access buttons.
+This repository contains a demonstration macro designed for Cisco Webex room devices that provides quick access to a telehealth portal via the Touch 10 or Navigator interface. The macro includes options for securely opening a web page and closing it when no longer needed.
 
 ## Features
 
-- **Open a WebView for the Telehealth Portal**: Users can quickly access a web page (e.g., telehealth portal, informational site) by pressing a button on the Touch 10 or Navigator.
-- **Secure Web Access**: The macro can include basic authentication (username and password) if needed to access secure web portals.
-- **Easily Close the WebView**: A dedicated button is provided to clear the WebView and return to the standard interface.
+- **Open the Telehealth Web Portal with Authentication**: Securely access a telehealth web page using basic authentication (username and password) embedded within the URL.
+- **Alternate Web Page Access**: An option to open a different web page, such as a public-facing site, is included in the demo.
+- **Close the WebView Easily**: Users can quickly close the web page and return to the default interface with a dedicated button.
 
-## User Interface
+## Script Overview
 
-The buttons in the interface are designed as follows:
-
-- **Open WebView**: Button labeled "Open Telehealth Portal"
-- **Close WebView**: Button labeled "Close Telehealth Portal"
-
-![User Interface](rroll-ui.png)
-
-## Script Explanation
-
-The macro file is `rroll.js`. It includes functions to handle opening and closing a WebView on the Cisco Webex device:
+The macro file is `telehealth-demo.js`, and it includes functions to handle the following tasks:
 
 ### Functions
 
-- **`openTelehealthWebPage()`**: Opens the default telehealth portal (currently set to `https://google.com`).
-- **`openTelehealthWebPage2()`**: Opens a different URL (currently set to a popular video) with the option to include basic authentication if needed.
-- **`closeTelehealthWebPage()`**: Closes the WebView, clearing the screen and returning to the default interface.
+- **`openTelehealthWebPage()`**: Opens the default web page (`https://google.com`) as a simple example.
+- **`openTelehealthWebPage2()`**: Opens a telehealth portal with embedded basic authentication credentials (`telehealth:latrobe`). This is useful for securely accessing restricted web portals.
+- **`closeTelehealthWebPage()`**: Closes the WebView, clearing the content from the screen and returning to the main interface.
 
 ### Button Controls
 
-- **`open_telehealth` Button**: Opens the telehealth portal (or any URL configured in the script).
+- **`open_telehealth` Button**: Triggers the opening of the telehealth portal.
 - **`close_telehealth` Button**: Closes the WebView and clears the screen.
 
 ### Script Logic
 
-- The script listens for button press events using the Widget ID configured in the Extension Editor.
-- When the "Open Telehealth Portal" button is pressed, the selected web page is opened in a WebView.
+- The script listens for button press events using the Widget IDs configured in the Extension Editor.
+- When the "Open Telehealth Portal" button is pressed, the secure telehealth portal is opened.
 - When the "Close Telehealth Portal" button is pressed, the WebView is cleared.
 
 ## How to Use
 
-1. Upload the `rroll.js` script to your Cisco Webex room device through the Macro Editor.
-2. Configure the UI buttons in the Extension Editor as shown in the screenshot.
+1. Upload the `telehealth-demo.js` script to your Cisco Webex room device using the Macro Editor.
+2. Configure the UI buttons in the Extension Editor with Widget IDs: `open_telehealth` and `close_telehealth`.
 3. Run the macro and test the functionality using the buttons.
 
-### Installation
+### Installation Steps
 
 1. Open the Macro Editor on your Cisco Webex device.
-2. Create a new macro and paste the contents of the `rroll.js` script.
+2. Create a new macro and paste the contents of the `telehealth-demo.js` script.
 3. Save and activate the macro.
-4. Ensure that the buttons are configured in the User Interface Extensions.
+4. Set up the buttons in the User Interface Extensions to match the Widget IDs in the script.
+
+### Example Interface
+
+The UI includes two buttons:
+- **"Open Telehealth Portal"**: Opens the secure telehealth portal.
+- **"Close Telehealth Portal"**: Closes the WebView.
 
 ## Troubleshooting
 
-- **WebView Not Opening**: Verify that the Widget IDs (`open_telehealth`, `close_telehealth`) match those configured in the script.
-- **Error Opening WebView**: Ensure that the device has internet access and that the URL is correct.
+- **WebView Not Opening**: Ensure that the Widget IDs (`open_telehealth`, `close_telehealth`) match those configured in the script.
+- **Authentication Issues**: Verify that the username and password are correct in the URL used in `openTelehealthWebPage2`.
+- **Error Opening the Web Page**: Check the network connection and ensure that the device has access to the specified URL.
 
 ## License
 
@@ -62,4 +60,4 @@ This project is licensed under the Cisco Sample Code License.
 
 ---
 
-This macro makes it easy for users to access key web resources directly from their Cisco Webex device with just a few taps.
+This macro provides an easy way to integrate web-based telehealth portals directly into Cisco Webex room devices, offering quick access with simple touch controls.
