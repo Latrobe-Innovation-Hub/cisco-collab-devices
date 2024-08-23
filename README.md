@@ -1,7 +1,3 @@
-Here is a README that provides an overview for the whole repository:
-
----
-
 # Cisco Room System Macros Collection
 
 This repository contains a comprehensive set of macros and configurations tailored for managing and automating various Cisco room systems, including presentation spaces, boardrooms, and specialized environments. The goal of this collection is to streamline AV management, enable advanced system control, and provide easy-to-use interfaces for both users and administrators.
