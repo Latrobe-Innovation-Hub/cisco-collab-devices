@@ -1,7 +1,3 @@
-Here’s the `README.md` for your Rick Roll macro:
-
----
-
 # Rick Roll Macro for Cisco Devices
 
 This script allows you to Rick Roll your audience by opening a WebView displaying the classic "Never Gonna Give You Up" music video by Rick Astley. The macro provides two main functionalities: opening and closing the WebView for the YouTube video.
