@@ -1,0 +1,38 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>panel_1</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreen</Location>
+    <Icon>Sliders</Icon>
+    <Color>#D43B52</Color>
+    <Name>Panel</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>Basic</Name>
+      <Row>
+        <Name>Screen Roles</Name>
+        <Widget>
+          <WidgetId>flip-1</WidgetId>
+          <Name>[X] [O]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>flip-2</WidgetId>
+          <Name>[O] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>set_screens_same</WidgetId>
+          <Name>[X] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
