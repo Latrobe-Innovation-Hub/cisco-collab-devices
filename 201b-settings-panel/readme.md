@@ -67,12 +67,7 @@ You can customize the following elements in the macros:
 
 The UI panel is designed for easy navigation with clearly labeled buttons for each function:
 
-```
-| Projector          | On     | Off   | Default Input |
-| Video Presets      | 1      | 2     | 3     | 4      |
-| Mode               | Light  | Dark  |
-| Screen Roles       | [X] [O] | [O] [X] | [X] [X] |
-```
+![201b UI](201b-ui.png)
 
 ## Notes
 
