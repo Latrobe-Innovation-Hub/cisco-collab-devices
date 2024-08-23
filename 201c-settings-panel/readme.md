@@ -70,14 +70,7 @@ The UI is organized into several pages, each focusing on different control aspec
 
 The UI is designed for ease of use, with a clear structure and logically grouped controls. Below is an example layout:
 
-```
-| VideoWall Projectors      | On     | Off   |
-| Webex Input Source        | HDMI   | RESET |
-| VideoWall Presets         | Webex Single | Webex Dual | Webex Hybrid |
-| Screen Roles              | [X] [O] | [O] [X] | [X] [X] |
-| Camera Presets            | [1] Audience | [2] VideoWall | [1,2] Default |
-| API Control               | PoE Cycle | PC Management |
-```
+![201c UI](201c-ui.png)
 
 ## Notes
 
