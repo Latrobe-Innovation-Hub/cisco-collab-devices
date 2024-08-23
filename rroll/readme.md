@@ -8,6 +8,8 @@ This repository contains a demonstration macro designed for Cisco Webex room dev
 - **Alternate Web Page Access**: An option to open a different web page, such as a public-facing site, is included in the demo.
 - **Close the WebView Easily**: Users can quickly close the web page and return to the default interface with a dedicated button.
 
+![User Interface](Screenshot%202024-08-23%20115858.png)
+
 ## Script Overview
 
 The macro file is `telehealth-demo.js`, and it includes functions to handle the following tasks:
