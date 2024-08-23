@@ -1,0 +1,101 @@
+<Extensions>
+  <Version>1.11</Version>
+  <Panel>
+    <Order>1</Order>
+    <PanelId>sc_panel</PanelId>
+    <Origin>local</Origin>
+    <Location>HomeScreen</Location>
+    <Icon>Sliders</Icon>
+    <Color>#FF3D67</Color>
+    <Name>System Controls</Name>
+    <ActivityType>Custom</ActivityType>
+    <Page>
+      <Name>System Controls</Name>
+      <Row>
+        <Name>Projector</Name>
+        <Widget>
+          <WidgetId>on_1_btn</WidgetId>
+          <Name>On</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>off_1_btn</WidgetId>
+          <Name>Off</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>input_1_btn</WidgetId>
+          <Name>Default Input</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Video Presets</Name>
+        <Widget>
+          <WidgetId>preset_1_btn</WidgetId>
+          <Name>1</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>preset_2_btn</WidgetId>
+          <Name>2</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>preset_3_btn</WidgetId>
+          <Name>3</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>preset_4_btn</WidgetId>
+          <Name>4</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Mode</Name>
+        <Widget>
+          <WidgetId>light-mode-btn</WidgetId>
+          <Name>Light</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>dark-mode-btn</WidgetId>
+          <Name>Dark</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Screen Roles</Name>
+        <Widget>
+          <WidgetId>flip-1</WidgetId>
+          <Name>[X] [O]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>flip-2</WidgetId>
+          <Name>[X] [O]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>set_screens_same</WidgetId>
+          <Name>[X] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
