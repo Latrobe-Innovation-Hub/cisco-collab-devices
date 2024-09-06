@@ -1,5 +1,5 @@
-// Programmer: Andrew McDonald
-// Date: 2024-08-23
+// Programmer: Farshad Zarean
+// Date: 20230820
 // Version: 1.0
 
 import xapi from 'xapi';
@@ -127,13 +127,13 @@ function setPresentationSource(option) {
     if (option === 'default-2') {
         recallPreset(1);
         // Option to stop the presentation, assuming this is the "default non-choice"
-        xapi.command('Presentation Stop')
-            .then(() => {
-                console.log('Presentation stopped.');
-            })
-            .catch(error => {
-                console.error(`Error stopping presentation: ${error}`);
-            });
+        //xapi.command('Presentation Stop')
+        //    .then(() => {
+        //        console.log('Presentation stopped.');
+        //    })
+        //    .catch(error => {
+        //        console.error(`Error stopping presentation: ${error}`);
+        //    });
     } else if (option === 'default-1') {
         recallPreset(5);
         // Option to stop the presentation, assuming this is the "default non-choice"
@@ -417,23 +417,23 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
       console.log(`HERE6`);
     } else if (event.WidgetId === 'default_btn_hybrid') {
       recallPreset(8);
-      xapi.command('Presentation Stop')
-        .then(() => {
-          console.log('Presentation stopped.');
-        })
-        .catch(error => {
-          console.error(`Error stopping presentation: ${error}`);
-        });
+      //xapi.command('Presentation Stop')
+      //  .then(() => {
+      //    console.log('Presentation stopped.');
+      //  })
+      //  .catch(error => {
+      //    console.error(`Error stopping presentation: ${error}`);
+      //  });
       console.log(`default_btn_hybrid`);
     } else if (event.WidgetId === 'widescreenPCandcodec_btn') { 
       setPresentationSource('PC 2 (HDMI) and codec');
-      xapi.command('Presentation Stop')
-        .then(() => {
-          console.log('Presentation stopped.');
-        })
-        .catch(error => {
-          console.error(`Error stopping presentation: ${error}`);
-        });
+      //xapi.command('Presentation Stop')
+      //  .then(() => {
+      //    console.log('Presentation stopped.');
+      //  })
+      //  .catch(error => {
+      //    console.error(`Error stopping presentation: ${error}`);
+      //  });
       console.log(`HERE8`);
     } else if (event.WidgetId === 'PC_choice_btn') { 
       const connector = predefinedSources[3];
@@ -543,3 +543,4 @@ function init(){
 }
 
 init();
+
