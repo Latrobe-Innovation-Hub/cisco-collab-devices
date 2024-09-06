@@ -22,9 +22,10 @@ The macro is designed to respond to user interactions on the UI panel. Button pr
 The UI is organized into several pages, each focusing on different control aspects of the presentation space:
 
 1. **Basic Controls:**
-    - **Projector On/Off**: Control video wall projectors.
-    - **Display Input Source Selection**: Choose between HDMI and default Webex inputs.
-    - **Display Output Views**: Select from multiple preset configurations for the video wall, tailored for Webex and digital signage.
+    - **Projector On/Off**
+    - **Display Input Source Selection**
+    - **Display Output Views**
+    - **Screen Role Options**
 
 2. **VideoWall Presets:**
     - Preset buttons to quickly configure the video wall for various use cases, including single or dual codecs, and combinations with PCs.
