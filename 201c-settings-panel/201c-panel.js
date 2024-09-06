@@ -219,14 +219,14 @@ xapi.event.on('UserInterface Extensions Widget Action', (event) => {
         console.log(`webex_btn2`);
     } else if (event.WidgetId === "webex_btn_hybrid") {
         recallPreset(7);
-        xapi.command('Presentation Stop')
-          .then(() => {
-            console.log('Presentation stopped.');
-          })
-          .catch(error => {
-            console.error(`Error stopping presentation: ${error}`);
-          });
-        console.log(`webex_btn2`);
+          //xapi.command('Presentation Stop')
+          //.then(() => {
+          //  console.log('Presentation stopped.');
+          //})
+          //.catch(error => {
+          //  console.error(`Error stopping presentation: ${error}`);
+          //});
+        console.log(`webex_btn_hybrid`);
     } else if(event.WidgetId === 'widescreenPC_btn') { 
         setPresentationSource('PC 2 (HDMI)');
         const connector = predefinedSources[3];
@@ -368,3 +368,4 @@ function init(){
 }
 
 init();
+
