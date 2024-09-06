@@ -22,7 +22,8 @@ The user interface is organized into multiple pages:
 
 1. **Basic Controls:**
     - **Projector On/Off**
-    - **Webex Input Source Selection**
+    - **Display Input Source Selection**
+    - **Display Output Views**
     - **Screen Role Options**
 
 2. **Video Wall Presets:**
