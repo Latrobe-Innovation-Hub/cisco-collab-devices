@@ -23,8 +23,8 @@ The UI is organized into several pages, each focusing on different control aspec
 
 1. **Basic Controls:**
     - **Projector On/Off**: Control video wall projectors.
-    - **Display Input Source**: Choose between HDMI and default Webex inputs.
-    - **VideoWall Presets**: Select from multiple preset configurations for the video wall, tailored for Webex and digital signage.
+    - **Display Input Source Selection**: Choose between HDMI and default Webex inputs.
+    - **Display Output Views**: Select from multiple preset configurations for the video wall, tailored for Webex and digital signage.
 
 2. **VideoWall Presets:**
     - Preset buttons to quickly configure the video wall for various use cases, including single or dual codecs, and combinations with PCs.
