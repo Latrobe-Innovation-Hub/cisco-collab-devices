@@ -12,90 +12,81 @@
     <Page>
       <Name>Basic</Name>
       <Row>
-        <Name>VideoWall Projectors</Name>
+        <Name/>
+      </Row>
+      <Row>
+        <Name>Projectors</Name>
         <Widget>
           <WidgetId>on_3_btn</WidgetId>
           <Name>On</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
           <WidgetId>off_3_btn</WidgetId>
           <Name>Off</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
       </Row>
       <Row>
-        <Name>Webex Input Source</Name>
+        <Name/>
+      </Row>
+      <Row>
+        <Name>Display Input</Name>
         <Widget>
           <WidgetId>HDMI_choice_btn</WidgetId>
           <Name>HDMI</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
           <WidgetId>stoppresentation_btn</WidgetId>
           <Name>RESET</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
       </Row>
       <Row>
-        <Name>VideoWall Presets</Name>
+        <Name>Display Output</Name>
         <Widget>
-          <WidgetId>webex_btn2</WidgetId>
-          <Name>Webex Single</Name>
+          <WidgetId>preset_2_btn</WidgetId>
+          <Name>Single</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
-          <WidgetId>webex_btn</WidgetId>
-          <Name>Webex Dual</Name>
+          <WidgetId>preset_1_btn</WidgetId>
+          <Name>Dual</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
           <WidgetId>webex_btn_hybrid</WidgetId>
-          <Name>Webex Hybrid</Name>
+          <Name>Hybrid</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
       </Row>
       <Row>
-        <Name/>
-        <Widget>
-          <WidgetId>widescreenPC_btn_sml</WidgetId>
-          <Name>Digital Signage sml</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>widescreenPC_btn</WidgetId>
-          <Name>Digital Signage lrg</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Screen Roles</Name>
+        <Name>Display Roles</Name>
         <Widget>
           <WidgetId>flip-1</WidgetId>
           <Name>[X] [O]</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
           <WidgetId>flip-2</WidgetId>
           <Name>[O] [X]</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
         <Widget>
           <WidgetId>set_screens_same</WidgetId>
           <Name>[X] [X]</Name>
           <Type>Button</Type>
-          <Options>size=2</Options>
+          <Options>size=1</Options>
         </Widget>
       </Row>
       <Options/>
@@ -117,18 +108,6 @@
           <Options>size=2</Options>
         </Widget>
         <Widget>
-          <WidgetId>preset_3_btn</WidgetId>
-          <Name>Codec + PC</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>preset_8_btn</WidgetId>
-          <Name>Codec + PC 2</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-        <Widget>
           <WidgetId>webex_btn_hybrid</WidgetId>
           <Name>Codec Hybrid</Name>
           <Type>Button</Type>
@@ -138,14 +117,29 @@
       <Row>
         <Name/>
         <Widget>
+          <WidgetId>preset_3_btn</WidgetId>
+          <Name>Codec + DS</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>preset_8_btn</WidgetId>
+          <Name>Codec + DS 2</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Digital Signage</Name>
+        <Widget>
           <WidgetId>preset_4_btn</WidgetId>
-          <Name>Widescreen PC lrg</Name>
+          <Name>Large</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>preset_6_btn</WidgetId>
-          <Name>Widescreen PC sml</Name>
+          <Name>Small</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -155,10 +149,10 @@
     <Page>
       <Name>Codec</Name>
       <Row>
-        <Name>Codec Inputs</Name>
+        <Name>Display Inputs</Name>
         <Widget>
           <WidgetId>stoppresentation_btn</WidgetId>
-          <Name>Webex Default</Name>
+          <Name>RESET</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -182,40 +176,19 @@
         </Widget>
         <Widget>
           <WidgetId>cam1_btn</WidgetId>
-          <Name>Camera1</Name>
+          <Name>Camera 1</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>cam2_btn</WidgetId>
-          <Name>Camera2</Name>
+          <Name>Camera 2</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
       </Row>
       <Row>
-        <Name>Screen Roles</Name>
-        <Widget>
-          <WidgetId>flip-1</WidgetId>
-          <Name>[X] [0]</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>flip-2</WidgetId>
-          <Name>[O] [X]</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-        <Widget>
-          <WidgetId>set_screens_same</WidgetId>
-          <Name>[X] [X]</Name>
-          <Type>Button</Type>
-          <Options>size=2</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Mode</Name>
+        <Name>Display Mode</Name>
         <Widget>
           <WidgetId>light-mode-btn</WidgetId>
           <Name>Light</Name>
@@ -227,6 +200,27 @@
           <Name>Dark</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Display Roles</Name>
+        <Widget>
+          <WidgetId>flip-1</WidgetId>
+          <Name>[X] [0]</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>flip-2</WidgetId>
+          <Name>[O] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>set_screens_same</WidgetId>
+          <Name>[X] [X]</Name>
+          <Type>Button</Type>
+          <Options>size=1</Options>
         </Widget>
       </Row>
       <Options/>
