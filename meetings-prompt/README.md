@@ -66,7 +66,6 @@ Ensure you have a button widget in your device UI panel with the ID `startMeetin
 ### UI Screenshot
 
 ![UI Panel Screenshot](./ui-panel-screenshot.png)
-*Example of the UI panel with the 'Delete Meeting' button.*
 
 ## Code Explanation
 
