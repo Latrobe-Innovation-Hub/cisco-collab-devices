@@ -40,6 +40,8 @@ The repository is organized into different folders based on the use case or the 
    A macro built for telehealth demonstrations, integrating remote control features and video input management for health care scenarios.
 
 ### 12. **README.md**
+
+### 13. **README.md**
    The main repository readme file that provides high-level documentation and usage instructions.
 
 ## Key Features
