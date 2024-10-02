@@ -39,7 +39,8 @@ The repository is organized into different folders based on the use case or the 
 ### 11. **telehealthdemo-web-macro**
    A macro built for telehealth demonstrations, integrating remote control features and video input management for health care scenarios.
 
-### 12. **README.md**
+### 12. **meetings-prompt-macro**
+   A macro to manage room meetings from the navigator panel, with password access requirements. 
 
 ### 13. **README.md**
    The main repository readme file that provides high-level documentation and usage instructions.
