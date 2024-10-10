@@ -1,0 +1,13 @@
+[Unit]
+Description=Flask Application for Wake-on-LAN
+After=network.target
+
+[Service]
+User=andy
+Group=andy
+WorkingDirectory=/home/andy/
+Environment="PATH=/home/andy/myenv/bin"
+ExecStart=/home/andy/myenv/bin/python /home/andy/app.py
+
+[Install]
+WantedBy=multi-user.target
